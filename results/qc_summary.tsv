@@ -1,0 +1,5 @@
+sample	total_reads	mapped_reads	pct_mapped	avg_read_length	status
+SGNex_A549_directRNA_replicate1_run1	536254	475479	88.67	971	PASS
+SGNex_Hct116_directRNA_replicate6_run1	7753	90	1.16	100	FAIL
+SGNex_K562_cDNA_replicate1_run3	1393352	1251505	89.82	1083	PASS
+SGNex_Hct116_cDNA_replicate1_run6	1171939	945186	80.65	839	PASS

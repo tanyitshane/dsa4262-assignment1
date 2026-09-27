@@ -1,0 +1,82 @@
+bambu version: 3.12.1 
+
+== 4.2a novel transcripts
+novel
+ FALSE   TRUE 
+200310   1407 
+novel genes: 395 
+
+== 4.2b top 5 genes
+by total counts:
+          GENEID   name totalCounts meanCPM_3good
+ ENSG00000087086    FTL       22475          9942
+ ENSG00000137818  RPLP1       19037          7228
+ ENSG00000034510 TMSB10       18784          7131
+ ENSG00000198786 MT-ND5       16627          7281
+ ENSG00000111640  GAPDH       15992          6509
+by mean CPM (excl. failed sample):
+          GENEID   name totalCounts meanCPM_3good
+ ENSG00000087086    FTL       22475          9942
+ ENSG00000198786 MT-ND5       16627          7281
+ ENSG00000137818  RPLP1       19037          7228
+ ENSG00000034510 TMSB10       18784          7131
+ ENSG00000111640  GAPDH       15992          6509
+
+== 4.2c transcripts per gene (all, extended annotations)
+genes: 58697  min: 1  max: 193  mean: 3.44 
+
+== 4.2d transcripts per gene (expressed: total counts >= 10)
+expressed transcripts: 13938 
+genes: 9604  min: 1  max: 11  mean: 1.45 
+
+== 4.2e single-exon novel transcripts: 0 
+
+== 4.2f top transcripts with only unique reads
+          TXNAME          GENEID    name total
+ ENST00000331825 ENSG00000087086     FTL 22110
+ ENST00000233143 ENSG00000034510  TMSB10 18632
+ ENST00000387347 ENSG00000210082 MT-RNR2  8503
+       BambuTx79 ENSG00000227097 RPS28P7  7810
+ ENST00000468715 ENSG00000137970  RPL7P9  3724
+
+== 4.4 candidates: most expressed novel transcripts
+     TXNAME          GENEID       name                         class exons
+  BambuTx79 ENSG00000227097    RPS28P7                        allNew     2
+  BambuTx64 ENSG00000220842   RPL21P16                        allNew     2
+ BambuTx341 ENSG00000233913    RPL10P9                        allNew     2
+ BambuTx324 ENSG00000264281 AC016596.1                        allNew     2
+ BambuTx185 ENSG00000104904       OAZ1                     newWithin     5
+ BambuTx348 ENSG00000212802    RPL15P3                        allNew     2
+ BambuTx136 ENSG00000234797    RPS3AP6                        allNew     2
+ BambuTx376   BambuGene1427       <NA>               newGene-spliced     2
+ BambuTx351 ENSG00000197903  HIST1H2BK                        allNew     2
+ BambuTx956 ENSG00000159685     CHCHD6 newFirstJunction:newFirstExon     3
+  total                     locus
+ 7810.0   11:82689530-82689941(+)
+ 4633.8 10:120354641-120355223(-)
+ 3497.0  5:168616310-168617082(+)
+ 3299.0    5:55944615-55973045(+)
+ 1863.0     19:2269525-2273484(+)
+ 1841.9    6:12514074-12514797(+)
+ 1356.4   15:59768347-59785517(+)
+ 1127.2  6:144923502-144928820(+)
+  605.7    6:27138293-27146855(-)
+  482.3  3:126917804-126960398(+)
+
+== warnings (for 5.3)
+[[1]]
+[1] "not all chromosomes present in reference annotations, annotations might be incomplete. Please compare objects on the same reference"              
+[2] "36 reads are mapped outside the provided genomic regions. These reads will be dropped. Check you are using the same genome used for the alignment"
+
+[[2]]
+[1] "not all chromosomes present in reference annotations, annotations might be incomplete. Please compare objects on the same reference"              
+[2] "53 reads are mapped outside the provided genomic regions. These reads will be dropped. Check you are using the same genome used for the alignment"
+
+[[3]]
+[1] "not all chromosomes present in reference annotations, annotations might be incomplete. Please compare objects on the same reference"
+[2] "Bambu was unable to train a model on this sample, and is using a pretrained model"                                                  
+
+[[4]]
+[1] "not all chromosomes present in reference annotations, annotations might be incomplete. Please compare objects on the same reference"              
+[2] "88 reads are mapped outside the provided genomic regions. These reads will be dropped. Check you are using the same genome used for the alignment"
+
